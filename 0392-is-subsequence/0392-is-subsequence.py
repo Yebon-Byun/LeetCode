@@ -72,7 +72,7 @@ class Solution:
 #             p_right += 1
 #         return p_left == LEFT_BOUND
 
-        #3
+        #3 unresolved
         letter_indices_table = defaultdict(list)
         
         for index, letter in enumerate(t):
