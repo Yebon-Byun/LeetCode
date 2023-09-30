@@ -74,7 +74,9 @@ class Solution:
 
         #3
         letter_indices_table = defaultdict(list)
+        
         for index, letter in enumerate(t):
+         
             letter_indices_table[letter].append(index)
         curr_match_index = -1
         for letter in s:
