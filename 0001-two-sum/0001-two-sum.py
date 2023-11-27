@@ -1,14 +1,14 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         
-        #1 Brute force
+        #1 Brute force | O(n^2)
         # for i in range(len(nums)):
         #     for j in range(i+1, len(nums)):
         #         if nums[i] + nums[j] == target:
         #             return [i, j]
         # return None
         
-        #2 Two-pass HashTable
+        #2 Two-pass HashTable | O(n)
         # hashmap = {}
         # for i in range(len(nums)):
         #     hashmap[nums[i]] = i
@@ -22,7 +22,7 @@ class Solution:
         #         # using iteration.
         #         return [i, hashmap[complement]]
         
-        #3 One-pass HashTable
+        #3 One-pass HashTable | O(n)
         hashmap = {}
         for i in range(len(nums)):
             complement = target - nums[i]
