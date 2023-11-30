@@ -6,10 +6,10 @@ class ListNode(object):
 
 class BrowserHistory(object):
 
-    def __init__(self, homepage: str):
+    def __init__(self, homepage):
         self.head = self.current = ListNode(val = homepage)
 
-    def visit(self, url: str):
+    def visit(self, url):
         self.current.next = ListNode(val = url, prev = self.current)
         self.current = self.current.next
         return None
