@@ -11,4 +11,5 @@ class Solution:
             elif not stack or stack.pop() != p:
                 return False
         return not stack
-        
+    
+                
