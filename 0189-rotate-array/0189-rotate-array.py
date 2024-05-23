@@ -9,6 +9,8 @@ class Solution:
         
         
         
+#         Approach 0 : by myself
+
 #         Approach 1 : Brute Force
         
 #         The simplest approach is to rotate all the elemenets of the arry in k steps
@@ -47,6 +49,25 @@ class Solution:
         
 #         """
         
+
+
+        #0
+        # class Solution:
+        #         def rotate(self, nums: List[int], k: int) -> None:
+        #                 """
+        #                 Do not return anything, modify nums in-place instead.
+        #                 """
+        #                 while k:
+        #                 num = nums.pop()
+        #                 nums.insert(0, num) 
+        #                 k -= 1
+        #                 if k == 0:
+        #                         break
+                        
+        #                 return nums
+        
+
+
         #1
 #         k %= len(nums)
         
@@ -84,8 +105,8 @@ class Solution:
 #         self.reverse(nums, k, n - 1)
             
         #5 from the discussion section
-        k %= len(nums)
-        nums[:] = nums[-k:] + nums[:-k]
+        # k %= len(nums)
+        # nums[:] = nums[-k:] + nums[:-k]
         
         
         
