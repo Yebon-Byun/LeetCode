@@ -12,6 +12,9 @@
 #                     i += 1
                         
 # Approach 1: Sliding Window
+# Time Comp: O(nm)
+# Space Comp: O(1)
+
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         m = len(needle)
