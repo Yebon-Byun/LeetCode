@@ -1,4 +1,6 @@
 # MY OWN
+# Time Comp: O(n)
+# Space Comp: O(1)
 # class Solution:
 #     def moveZeroes(self, nums: List[int]) -> None:
 #         """
@@ -11,6 +13,8 @@
 #             i += 1
 
 # Discuss Section Approach
+# Time Comp: O(n)
+# Space Comp: O(1)
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         pos = 0
