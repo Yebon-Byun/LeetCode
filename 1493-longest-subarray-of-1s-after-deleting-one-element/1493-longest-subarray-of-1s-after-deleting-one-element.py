@@ -1,4 +1,6 @@
 # Approach: Sliding Window
+# Time Comp: O(N)
+# Space Comp: O(N)
 class Solution:
     def longestSubarray(self, nums: List[int]) -> int:
         ans = zeros = left = 0
