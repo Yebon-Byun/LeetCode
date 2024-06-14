@@ -1,3 +1,4 @@
+# MY OWN
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:
         total = max_alt = 0
