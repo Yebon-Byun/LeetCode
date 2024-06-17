@@ -23,6 +23,7 @@
 # Approahc 1: Counter
 # Time Comp: O(n)
 # Space Comp: O(n)
+
 # class Solution:
 #     def uniqueOccurrences(self, arr: List[int]) -> bool:
 #         return len(set(Counter(arr).values())) == len(set(arr))
