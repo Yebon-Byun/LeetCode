@@ -49,6 +49,8 @@
 #             return False
 
 # Approach 1: DFS, yield & yield from
+# Time Comp: O(n)
+# Space Comp: O(n)
 # class Solution:
     # def leafSimilar(self, root1, root2):
     #     def dfs(node):
@@ -60,6 +62,8 @@
     #     return list(dfs(root1)) == list(dfs(root2))
         
 # Approach 2: DFS, old shcool
+# Time Comp: O(n)
+# Space Comp: O(n)
 class Solution:
     def leafSimilar(self, root1, root2):
         def dfs(node):
