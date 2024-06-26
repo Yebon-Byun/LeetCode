@@ -50,32 +50,30 @@
 
 # Approach 1: DFS, yield & yield from
 # class Solution:
-#     def leafSimilar(self, root1, root2):
-#         def dfs(node):
-#             if node:
-#                 if not node.left and not node.right:
-#                     yield node.val
-#                 yield from dfs(node.left)
-#                 yield from dfs(node.right)
-#         return list(dfs(root1)) == list(dfs(root2))
+    # def leafSimilar(self, root1, root2):
+    #     def dfs(node):
+    #         if node:
+    #             if not node.left and not node.right:
+    #                 yield node.val
+    #             yield from dfs(node.left)
+    #             yield from dfs(node.right)
+    #     return list(dfs(root1)) == list(dfs(root2))
         
 # Approach 2: DFS, old shcool
 class Solution:
     def leafSimilar(self, root1, root2):
-        def dfs(node, leaf_values):
-            if node:
-                if not node.left and not node.right:
-                    leaf_values.append(node.val)
-                dfs(node.left, leaf_values)
-                dfs(node.right, leaf_values)
+        def dfs(node):
+            if not node:
+                return []
+            if not node.left and not node.right:
+                return [node.val]
+            return dfs(node.left) + dfs(node.right)
 
-        root1_leaves = []
-        root2_leaves = []
-        
-        dfs(root1, root1_leaves)
-        dfs(root2, root2_leaves)
+        root1_leaves = dfs(root1)
+        root2_leaves = dfs(root2)
         
         return root1_leaves == root2_leaves
+
 
 
                     
