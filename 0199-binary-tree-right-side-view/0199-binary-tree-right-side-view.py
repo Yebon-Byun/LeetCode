@@ -15,34 +15,28 @@
 #             if node.right:
 #                 return bfs(node.right)
 
-from typing import Optional, List
-
-# TreeNode 클래스가 이미 정의되어 있다고 가정합니다.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         if root is None:
             return []
-
+        
         rightside = []
-
+        
         def bfs(node, level):
             if node is None:
                 return
-            
+        
             if level == len(rightside):
                 rightside.append(node.val)
-
+        
             bfs(node.right, level + 1)
             bfs(node.left, level + 1)
-
+        
         bfs(root, 0)
         return rightside
+        
+        
+            
 
 
 # class Solution:
