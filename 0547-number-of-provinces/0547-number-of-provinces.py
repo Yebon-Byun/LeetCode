@@ -8,11 +8,11 @@ class Solution:
         if not isConnected:
             return 0
         
-        def dfs(u):
-            for v in range(n):
-                if isConnected[u][v] == 1 and visited[v] == False:
-                    visited[v] = True
-                    dfs(v)
+        def dfs(current):
+            for neighbor in range(n):
+                if isConnected[current][neighbor] == 1 and visited[neighbor] == False:
+                    visited[neighbor] = True
+                    dfs(neighbor)
                     
         for idx in range(n):
             if visited[idx] == False:
