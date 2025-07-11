@@ -39,8 +39,13 @@
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Yebon-Byun/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1127-last-stone-weight](https://github.com/Yebon-Byun/LeetCode/tree/master/1127-last-stone-weight) |
 ## Data Stream
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Yebon-Byun/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Array
+|  |
+| ------- |
+| [1127-last-stone-weight](https://github.com/Yebon-Byun/LeetCode/tree/master/1127-last-stone-weight) |
 <!---LeetCode Topics End-->
