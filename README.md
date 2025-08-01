@@ -18,10 +18,12 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Yebon-Byun/LeetCode/tree/master/0200-number-of-islands) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Yebon-Byun/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Yebon-Byun/LeetCode/tree/master/0200-number-of-islands) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Yebon-Byun/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Design
 |  |
@@ -49,6 +51,7 @@
 ## Array
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Yebon-Byun/LeetCode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Yebon-Byun/LeetCode/tree/master/0212-word-search-ii) |
 | [1127-last-stone-weight](https://github.com/Yebon-Byun/LeetCode/tree/master/1127-last-stone-weight) |
 ## Hash Table
@@ -67,5 +70,10 @@
 ## Matrix
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Yebon-Byun/LeetCode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Yebon-Byun/LeetCode/tree/master/0212-word-search-ii) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Yebon-Byun/LeetCode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
