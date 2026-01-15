@@ -67,6 +67,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/Yebon-Byun/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/Yebon-Byun/LeetCode/tree/master/0695-max-area-of-island) |
 | [1127-last-stone-weight](https://github.com/Yebon-Byun/LeetCode/tree/master/1127-last-stone-weight) |
+| [2303-calculate-amount-paid-in-taxes](https://github.com/Yebon-Byun/LeetCode/tree/master/2303-calculate-amount-paid-in-taxes) |
 ## Hash Table
 |  |
 | ------- |
@@ -105,4 +106,8 @@
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Yebon-Byun/LeetCode/tree/master/0217-contains-duplicate) |
+## Simulation
+|  |
+| ------- |
+| [2303-calculate-amount-paid-in-taxes](https://github.com/Yebon-Byun/LeetCode/tree/master/2303-calculate-amount-paid-in-taxes) |
 <!---LeetCode Topics End-->
